@@ -756,7 +756,7 @@ pre .javascript .function {
 .post-body .note h6 {
   margin-top: 0;
   margin-bottom: 0;
-  border-bottom: initial;
+  border-bottom: none;
   padding-top: 0 !important;
 }
 .post-body .note p:first-child,
@@ -894,7 +894,7 @@ pre .javascript .function {
 }
 .post-body .tabs ul.nav-tabs li.tab a {
   outline: 0;
-  border-bottom: initial;
+  border-bottom: none;
   display: block;
   line-height: 1.8em;
   padding: 0.25em 0.75em;
@@ -1228,10 +1228,12 @@ pre .javascript .function {
   }
 }
 .post-body p a {
-  color: #4fc3f7;
+  color: #0593d3;
+  border-bottom: none;
 }
 .post-body p a:hover {
-  color: #ff8a65;
+  color: #fc6423;
+  border-bottom: none;
 }
 .post-body .fancybox img {
   display: block !important;
@@ -1683,6 +1685,9 @@ pre .javascript .function {
 .sidebar a:hover {
   color: #eee;
 }
+.sidebar a:link {
+  text-decoration: none;
+}
 @media (min-width: 768px) and (max-width: 991px) {
   .sidebar {
     display: none !important;
@@ -1829,7 +1834,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #e00e1c;
+  background: #e5d5b5;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -1854,6 +1859,7 @@ pre .javascript .function {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  border-bottom: none;
 }
 .sidebar-nav {
   margin: 0 0 20px;
@@ -2996,4 +3002,7 @@ pre .javascript .function {
   .post-body {
     text-align: justify;
   }
+}
+a {
+  border-bottom: none;
 }
